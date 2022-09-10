@@ -1,0 +1,275 @@
+body {
+    background-color: #6a0ea8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: #b70fbe;
+
+}
+
+.navbar-lijst {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 70px;
+    height: 70px;
+}
+
+.navbar-lijst li a {
+    text-decoration: none;
+    font-weight: bold;
+    border-style: dotted;
+    padding: 10px;
+}
+
+input[type=submit] {
+    color: #030303;
+}
+
+.navbar-lijst li a:hover {
+    color: red;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 50px auto auto;
+    font-size: xx-large;
+}
+
+p {
+    font-weight: bolder;
+    text-align: center;
+    font-style: oblique;
+    font-size: larger;
+}
+
+
+h2 {
+    text-align: center;
+
+}
+
+.homepage {
+    text-align: center;
+    border-style: solid;
+    width: 150px;
+    padding: 50px;
+    margin: 50px auto auto;
+    background-color: #3700ff;
+}
+
+.zakaria {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.Mijn-foto {
+    margin: 0;
+}
+
+.Mijn-foto img {
+    display: block;
+    width: 400px;
+    margin: 30px auto auto;
+
+}
+
+.wie-ben-ik {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    white-space: pre-line;
+    width: 80%;
+    height: 825px;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.mijnnnfoto img {
+    display: block;
+    width: 400px;
+    margin: 30px auto auto;
+
+}
+
+.Textbox {
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+.Textbox {
+    padding: 5px;
+}
+
+
+.hobbys {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    white-space: pre-line;
+    width: 60%;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.mijn-fotoss img {
+    display: block;
+    width: 400px;
+    margin: 30px auto auto;
+
+}
+
+.bedanktvooruwaanvraag {
+    font-style: inherit;
+    border-style: solid;
+    white-space: pre-line;
+    width: 60%;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ffdd00;
+
+}
+
+.familie-s {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    white-space: pre-line;
+    width: 82%;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+.familiefoto img {
+    display: block;
+    width: 400px;
+    margin: 30px auto auto;
+}
+
+
+.adress {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+
+.stagess {
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    white-space: pre-line;
+    width: 89%;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.scholen-fotos{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 40%;
+}
+
+.scholen-fotos img{
+    width: 24%;
+    height: 100%;
+}
+
+table, th, td {
+    border: 3px solid black;
+    border-collapse: unset;
+
+}
+.tabells {
+   margin: 10% auto;
+
+
+}
+.tabells table{
+    margin: 10% auto;
+width: 500px;
+    height: 500px;
+}
+
+th, td {
+    font-size: large;
+}
+
+th, td {
+    font-weight: bolder;
+    text-align: center;
+    font-style: oblique;
+    font-size: xxx-large;
+}
+
+th {
+    background-color: cornsilk;
+}
+
+
+.active-link  {
+    font-style: italic;
+
+}
+
+
+.feedback-card {
+    font-weight: bolder;
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    white-space: pre-line;
+    width: 30%;
+    margin: 50px auto auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+
+.Wireframes-foto {
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 50%;
+    margin: 20px auto auto;
+
+}
+
+.vakantiefotos {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    height: 40%;
+
+}.TEKST-VOOR-VAKANTIEFOTOS {
+     font-weight: bolder;
+     text-align: center;
+     font-style: oblique;
+     font-size: x-large;
+     font-family: Arial, Helvetica, sans-serif;
+     border-style: solid;
+     white-space: pre-line;
+     width: 65%;
+     margin: 50px auto auto;
+     padding-left: 30px;
+     padding-right: 30px;
+
+ }

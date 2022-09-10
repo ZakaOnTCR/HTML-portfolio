@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Verstuurd</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<div class="bedanktvooruwaanvraag">
+ <h1>Bedankt voor uw vraag! Wij Proberen u  Z.S.M te Contacteren.
+(Wordt doorgestuurd)  <!-- dit is een text-->
+ </h1>
+    <h2 id="timer">5 seconden</h2>
+</div>
+<script>
+
+    let timer = 5;
+
+   // redirect to INDEX.HTML  after 5 seconds
+   window.setTimeout(function() {
+       window.location.href = 'index.html';
+   }, 5000);
+
+
+    setInterval(reduce_one_second, 1000);
+
+
+    function reduce_one_second(){
+        timer--;
+        document.getElementById("timer").innerHTML = timer + " seconden";
+    }
+</script>
+
+
+</body>
+</html>
